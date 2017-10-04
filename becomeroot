@@ -1,0 +1,6 @@
+#!/usr/bin/expect -f
+
+spawn sudo -i
+expect "password for david:"
+send "daji\r"
+interact
